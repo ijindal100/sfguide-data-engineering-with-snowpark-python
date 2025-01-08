@@ -73,3 +73,5 @@ if __name__ == "__main__":
     with Session.builder.getOrCreate() as session:
         load_all_raw_tables(session)
 #        validate_raw_tables(session)
+
+
